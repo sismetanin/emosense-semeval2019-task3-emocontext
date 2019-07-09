@@ -4,7 +4,7 @@
 This repository contains the source code of the models used for _EmoSense_ submissions
 for [SemEval-2019 Task 3 “EmoContext: Contextual Emotion Detection in Text”](https://www.humanizing-ai.com/emocontext.html).
 The model is described in the paper 
-"EmoSense at SemEval-2019 Task 3: Bidirectional LSTM Network for Contextual Emotion Detection in Textual Conversations".
+["EmoSense at SemEval-2019 Task 3: Bidirectional LSTM Network for Contextual Emotion Detection in Textual Conversations"](https://www.aclweb.org/anthology/papers/S/S19/S19-2034/).
 
 The proposed approach achieved 72.59% micro-average F1 score for emotion classes at the test dataset, thereby significantly outperform the officially-released baseline, namely larger in 14%.
 
@@ -12,11 +12,15 @@ We designed a specific architecture of LSTM which allows not only to learn seman
 
 Citation:
 ```
-@InProceedings{Smetanin:2019:SemEval2019,
-  author    = {Sergey Smetanin},
-  title     = {EmoSense at SemEval-2019 Task 3: Bidirectional LSTM Network for Contextual Emotion Detection in Textual Conversations},
-  booktitle = {Proceedings of the 13th International Workshop on Semantic Evaluation (SemEval-2013)},
-  year = {2019}
+@inproceedings{smetanin-2019-emosense,
+    title = "{E}mo{S}ense at {S}em{E}val-2019 Task 3: Bidirectional {LSTM} Network for Contextual Emotion Detection in Textual Conversations",
+    author = "Smetanin, Sergey",
+    booktitle = "Proceedings of the 13th International Workshop on Semantic Evaluation",
+    year = "2019",
+    address = "Minneapolis, Minnesota, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/S19-2034",
+    pages = "210--214",
 }
 ```
 ![MSA](static/architecture.png)
